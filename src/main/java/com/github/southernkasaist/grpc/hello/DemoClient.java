@@ -33,7 +33,7 @@ class DemoClient {
             futures.add(
                     executorService.submit(() -> {
                         HelloRequest request = HelloRequest.newBuilder()
-                                .setName("sourthernkasaist")
+                                .setName("guy")
                                 .build();
 
                         HelloReply reply = stub.sayHello(request);
